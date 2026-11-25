@@ -1,0 +1,58 @@
+{
+  "id": "/",
+  "name": "PlantCare AI — Smart Plant Assistant",
+  "short_name": "PlantCare AI",
+  "description": "Take a photo of any plant and let AI identify the species, detect visible disease symptoms, and provide a complete care guide.",
+  "lang": "en",
+  "dir": "auto",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#FAF8F1",
+  "theme_color": "#2E6B4F",
+  "categories": ["utilities", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scan a plant",
+      "short_name": "Scan",
+      "description": "Open the plant scanner directly",
+      "url": "/?view=scan",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Plants",
+      "short_name": "My Plants",
+      "description": "Open your saved plant history",
+      "url": "/?view=plants",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
