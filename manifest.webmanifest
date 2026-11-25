@@ -1,10 +1,10 @@
 {
   "id": "/",
-  "name": "PlantCare AI — Smart Plant Assistant",
+  "name": "PlantCare AI — مساعد النباتات الذكي",
   "short_name": "PlantCare AI",
-  "description": "Take a photo of any plant and let AI identify the species, detect visible disease symptoms, and provide a complete care guide.",
-  "lang": "en",
-  "dir": "auto",
+  "description": "صوّر أي نبات ودع الذكاء الاصطناعي يتعرف على نوعه، يفحص صحة أوراقه ويكشف أعراض الأمراض الظاهرة، ثم يقدم لك دليلاً كاملاً للعناية.",
+  "lang": "ar",
+  "dir": "rtl",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -41,16 +41,16 @@
   ],
   "shortcuts": [
     {
-      "name": "Scan a plant",
-      "short_name": "Scan",
-      "description": "Open the plant scanner directly",
+      "name": "فحص نبات",
+      "short_name": "فحص",
+      "description": "فتح شاشة فحص النبات مباشرة",
       "url": "/?view=scan",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {
-      "name": "My Plants",
-      "short_name": "My Plants",
-      "description": "Open your saved plant history",
+      "name": "نباتاتي",
+      "short_name": "نباتاتي",
+      "description": "فتح سجل النباتات المحفوظة",
       "url": "/?view=plants",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     }
